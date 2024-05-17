@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(255, 249, 240);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container > * {
+    margin: 10px;
+}
+
+.container > h1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.container > h1 > span {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.6em;
+    color: rgba(187, 158, 253, 0.589);
+}
+
+.container > button {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: rgba(187, 158, 253, 0.589);
+}
+
+
+.wrapper {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.wrapper > div {
+    height: 100px;
+    width: 100px;
+    font-size: 3em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.wrapper > div:hover {
+    background-color: rgba(187, 158, 253, 0.589);
+    cursor: pointer;
+}
+
+.wrapper > div:nth-child(2), 
+.wrapper > div:nth-child(8) {
+    border-left: 2px solid rgb(186, 158, 253);
+    border-right: 2px solid rgb(186, 158, 253);
+}
+
+.wrapper > div:nth-child(5) {
+    border: 2px solid rgb(186, 158, 253);
+}
+
+.wrapper > div:nth-child(4), 
+.wrapper > div:nth-child(6) {
+    border-top: 2px solid rgb(186, 158, 253);
+    border-bottom: 2px solid rgb(186, 158, 253);
+}
