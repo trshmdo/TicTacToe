@@ -1,2 +1,2 @@
 # TicTacToe
-simple TicTacToe browser game
+simple TicTacToe browser game for two people
